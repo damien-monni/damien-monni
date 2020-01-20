@@ -1,19 +1,35 @@
 import React from 'react';
-
-import styles from './ContactForm.module.css';
 import clsx from 'clsx';
 
+import styles from './ContactForm.module.css';
+import useContactForm from './useContactForm';
+
 const ContactForm = () => {
+  const { email, message, onInputChange, onSubmit } = useContactForm();
+
   return (
-    <form data-netlify="true">
+    <form data-netlify="true" onSubmit={onSubmit}>
       <div className={styles.textField}>
         <label htmlFor="email">E-mail :</label>
-        <input id="email" type="email" name="email" />
+        <input
+          id="email"
+          type="email"
+          name="email"
+          value={email}
+          onChange={onInputChange}
+        />
       </div>
 
       <div className={styles.textField}>
         <label htmlFor="message">Message :</label>
-        <textarea id="message" name="message" rows="10" />
+        <textarea
+          id="message"
+          name="message"
+          rows="10"
+          value={message}
+          required
+          onChange={onInputChange}
+        />
       </div>
 
       <div className={styles.submitContainer}>
