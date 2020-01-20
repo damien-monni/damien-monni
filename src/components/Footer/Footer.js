@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 import styles from './Footer.module.css';
 
@@ -12,7 +13,10 @@ const Footer = () => {
       </p>
 
       <p>
-        2020 - <a href="/legal">Mentions légales</a>
+        2020 -{' '}
+        <Link href="/legal">
+          <a>Mentions légales</a>
+        </Link>
       </p>
     </footer>
   );
