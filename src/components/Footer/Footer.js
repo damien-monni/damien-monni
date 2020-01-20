@@ -12,7 +12,7 @@ const Footer = () => {
       </p>
 
       <p>
-        2020 - <a>Mentions légales</a>
+        2020 - <a href="/legal">Mentions légales</a>
       </p>
     </footer>
   );

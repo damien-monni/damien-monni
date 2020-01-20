@@ -5,7 +5,7 @@ import clsx from 'clsx';
 
 const ContactForm = () => {
   return (
-    <form>
+    <form data-netlify="true">
       <div className={styles.textField}>
         <label htmlFor="email">E-mail :</label>
         <input id="email" type="email" name="email" />
