@@ -1,0 +1,38 @@
+.root {
+  margin-top: 50px;
+}
+
+@media (min-width: 1200px) {
+  .root {
+    margin-top: 200px;
+  }
+}
+
+.subtitle {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 1200px) {
+  .textContainer {
+    font-size: 1.4rem;
+  }
+}
+
+.formContainer {
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: var(--spacing-5);
+  padding: var(--spacing-5);
+  background-color: var(--palette-primary-main);
+  color: var(--palette-primary-contrast-text);
+  max-width: 90%;
+  border-radius: 4px;
+}
+
+@media (min-width: 1200px) {
+  .formContainer {
+    max-width: 1160px;
+    margin-top: var(--spacing-10);
+    padding: var(--spacing-10);
+  }
+}

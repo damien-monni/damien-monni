@@ -1,0 +1,26 @@
+.root {
+  padding: var(--spacing-2);
+  background-color: var(--palette-primary-main);
+  color: var(--palette-primary-contrast-text);
+  box-shadow: var(--shadow-hard);
+  position: relative;
+  z-index: 5;
+}
+
+.root ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  color: inherit;
+}
+
+.root ul li {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-weight: bold;
+}
+
+.root ul li.portfolioItem {
+  margin: 0 var(--spacing-4);
+}

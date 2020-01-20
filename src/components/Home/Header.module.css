@@ -1,0 +1,106 @@
+.header {
+  background-color: var(--palette-primary-main);
+  color: var(--palette-primary-contrast-text);
+  padding-left: var(--spacing-2);
+  padding-right: var(--spacing-2);
+  padding-top: var(--spacing-8);
+  position: relative;
+  top: -5px;
+}
+
+@media (min-width: 960px) {
+  .header {
+    padding-top: var(--spacing-10);
+  }
+}
+
+.headerContainer {
+  max-width: 1150px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: inherit;
+}
+
+@media (min-width: 960px) {
+  .headerContainer {
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.header * {
+  color: inherit;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-bottom: var(--spacing-4);
+}
+
+@media (min-width: 960px) {
+  .subtitle {
+    font-size: 1.8rem;
+    margin-bottom: var(--spacing-8);
+  }
+}
+
+.mailIcon {
+  width: 28px;
+  fill: var(--palette-secondary-contrast-text);
+  margin-right: var(--spacing-1);
+}
+
+.headerCode,
+.headerCode * {
+  position: relative;
+  z-index: 2;
+}
+
+.headerCodeContainer {
+  max-width: 100%;
+  margin-top: var(--spacing-4);
+}
+
+@media (min-width: 960px) {
+  .headerCodeContainer {
+    margin-top: 0;
+  }
+}
+
+.headerCodeContainer img {
+  max-width: 100%;
+}
+
+.wavesContainer {
+  display: flex;
+  position: relative;
+  top: 5px;
+  transform: scaleX(1.1);
+}
+
+.ellipse1 {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  z-index: 1;
+}
+
+.ellipse2 {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 1;
+}
+
+.ellipse3 {
+  position: absolute;
+  bottom: -300px;
+  left: 400px;
+  z-index: 1;
+}

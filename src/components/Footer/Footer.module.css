@@ -1,0 +1,17 @@
+.footer {
+  margin: var(--spacing-8) 0 var(--spacing-4) 0;
+  text-align: center;
+}
+
+.footer p,
+.footer a {
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .footer p,
+  .footer a {
+    font-size: 0.9rem;
+  }
+}
