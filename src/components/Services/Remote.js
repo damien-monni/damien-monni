@@ -15,8 +15,8 @@ const Remote = () => {
         </p>
 
         <p>
-          Je réalise aussi le développement d'applications mobiles en React
-          Native.
+          J’accepte tout de même des déplacements occasionnels parfois
+          nécessaires à la bonne réalisation d’un projet.
         </p>
       </div>
 
