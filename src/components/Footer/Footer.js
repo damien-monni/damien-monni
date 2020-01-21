@@ -9,7 +9,10 @@ const Footer = () => {
       <p>Ce site a été designé et développé par Damien MONNI</p>
 
       <p>
-        Le code est libre et <a>disponible sur GitHub.</a>
+        Le code est libre et{' '}
+        <a href="https://github.com/damien-monni/damien-monni/">
+          disponible sur GitHub.
+        </a>
       </p>
 
       <p>
