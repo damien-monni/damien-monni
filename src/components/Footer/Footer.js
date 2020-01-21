@@ -20,7 +20,7 @@ const Footer = () => {
         <Link href="/legal">
           <a>Mentions légales</a>
         </Link>
-        - v1
+        - v2
       </p>
     </footer>
   );

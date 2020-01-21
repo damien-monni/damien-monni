@@ -14,8 +14,6 @@ const ContactForm = () => {
       name="damienmonnicontact"
       // onSubmit={onSubmit}
     >
-      <input type="hidden" name="form-name" value="damienmonnicontact" />
-
       <div className={styles.textField}>
         <label htmlFor="email">E-mail :</label>
         <input
