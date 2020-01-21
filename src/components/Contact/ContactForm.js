@@ -8,9 +8,12 @@ const ContactForm = () => {
   const { email, message, onInputChange, onSubmit } = useContactForm();
 
   return (
-    <form method="post" onSubmit={onSubmit}>
-      <input type="hidden" name="form-name" value="damienmonnicontact" />
-
+    <form
+      method="POST"
+      data-netlify="true"
+      name="damienmonnicontact"
+      // onSubmit={onSubmit}
+    >
       <div className={styles.textField}>
         <label htmlFor="email">E-mail :</label>
         <input
