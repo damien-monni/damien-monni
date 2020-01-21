@@ -90,6 +90,7 @@
   top: -10px;
   left: -10px;
   z-index: 1;
+  pointer-events: none;
 }
 
 .ellipse2 {
@@ -97,6 +98,7 @@
   top: -10px;
   right: -10px;
   z-index: 1;
+  pointer-events: none;
 }
 
 .ellipse3 {
@@ -104,4 +106,5 @@
   bottom: -300px;
   left: 400px;
   z-index: 1;
+  pointer-events: none;
 }
