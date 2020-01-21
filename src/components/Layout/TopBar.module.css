@@ -4,7 +4,9 @@
   color: var(--palette-primary-contrast-text);
   box-shadow: var(--shadow-hard);
   position: relative;
-  z-index: 5;
+  z-index: 200;
+  position: sticky;
+  top: 0;
 }
 
 .root ul {
