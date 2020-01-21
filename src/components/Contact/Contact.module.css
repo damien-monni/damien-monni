@@ -12,6 +12,15 @@
   font-size: 1.1rem;
 }
 
+.email {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.email a {
+  color: #2196f3;
+}
+
 @media (max-width: 1200px) {
   .textContainer {
     font-size: 1.4rem;

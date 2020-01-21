@@ -15,6 +15,11 @@ const Contact = () => {
         Contactez-moi pour que l'on en discute !
       </p>
 
+      <p className={styles.email}>
+        Vous pouvez aussi m'écrire à{' '}
+        <a href="mailot:contact@damien-monni.com">contact@damien-monni.com</a>
+      </p>
+
       <div className={styles.formContainer}>
         <ContactForm />
       </div>
