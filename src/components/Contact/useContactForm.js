@@ -21,7 +21,7 @@ const useContactForm = () => {
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({ 'damien-monni-form-contact': 'contact', ...inputs }),
+      body: encode({ 'form-name': 'damienmonnicontact', ...inputs }),
     })
       .then(() => alert('Message envoyé avec succès'))
       .catch(() =>
