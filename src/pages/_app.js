@@ -1,4 +1,5 @@
 import TopBar from '../components/Layout/TopBar';
+import Footer from '../components/Layout/Footer';
 
 import '../normalize.css';
 import '../styles.css';
@@ -12,6 +13,8 @@ export default function MyApp({ Component, pageProps }) {
       <div id="main-content">
         <Component {...pageProps} />
       </div>
+
+      <Footer />
     </>
   );
 }

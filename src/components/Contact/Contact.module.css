@@ -1,5 +1,6 @@
 .root {
-  margin-top: 50px;
+  margin-top: var(--spacing-4);
+  margin-bottom: var(--spacing-8);
 }
 
 @media (min-width: 1200px) {
