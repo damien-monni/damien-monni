@@ -1,18 +1,16 @@
 import React from 'react';
 
 import Project from '../Project';
+import getTechs from '../libs/get-techs';
 
-const Perso = () => {
+const Perso = ({ invert }) => {
   return (
     <Project
       title="Damien Monni"
       subtitle="Ce site ! Mon site professionel"
-      techs={[
-        { id: 'react', label: 'React' },
-        { id: 'nextjs', label: 'Next.js' },
-        { id: 'netlify', label: 'Netlify' },
-      ]}
+      techs={getTechs(['react', 'nextjs', 'netlify'])}
       picture={{ src: 'damienmonni', alt: 'Damien Monni pro site' }}
+      invert={invert}
     >
       <p>
         Il s’agit de mon site professionel dans lequel je me présente et montre

@@ -14,6 +14,8 @@
   justify-content: center;
   list-style-type: none;
   color: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 .root ul li {
@@ -25,4 +27,11 @@
 
 .root ul li.portfolioItem {
   margin: 0 var(--spacing-4);
+}
+
+@media (min-width: 1200px) {
+  .root ul {
+    padding-top: var(--spacing-2);
+    padding-bottom: var(--spacing-2);
+  }
 }

@@ -16,7 +16,7 @@
 
 .root picture {
   flex: 1;
-  padding: 0 var(--spacing-8);
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -29,7 +29,7 @@
 
 .container {
   flex: 1;
-  padding: 0 var(--spacing-8);
+  padding: 0 var(--spacing-2);
   box-sizing: border-box;
 }
 
@@ -41,6 +41,8 @@
 .techsContainer {
   margin-top: var(--spacing-2);
   margin-bottom: var(--spacing-4);
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media (min-width: 1200px) {
@@ -53,10 +55,12 @@
     order: 1;
     padding: 0;
     margin-top: 0;
+    padding: 0 var(--spacing-8);
   }
 
   .container {
     order: 2;
+    padding: 0 var(--spacing-8);
   }
 
   .invert picture {
