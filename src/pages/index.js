@@ -2,7 +2,6 @@ import React from 'react';
 
 import Header from '../components/Home/Header';
 import Contact from '../components/Contact/Contact';
-import Footer from '../components/Footer/Footer';
 import Services from '../components/Services/Services';
 
 const HomePage = () => {
@@ -11,7 +10,6 @@ const HomePage = () => {
       <Header />
       <Services />
       <Contact />
-      <Footer />
     </>
   );
 };
