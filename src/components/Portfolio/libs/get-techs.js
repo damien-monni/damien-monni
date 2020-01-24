@@ -5,7 +5,7 @@ const TECHS = [
   { id: 'nodejs', label: 'Node.js' },
   { id: 'aws', label: 'AWS' },
   { id: 'pwa', label: 'PWA' },
-  { id: 'mongo', label: 'Mongo DB' },
+  { id: 'mongo', label: 'MongoDB' },
   { id: 'express', label: 'Express.js' },
   { id: 'graphql', label: 'GraphQL' },
   { id: 'quilljs', label: 'Quill.js' },
@@ -13,6 +13,7 @@ const TECHS = [
   { id: 'raspberrypi', label: 'Raspberry PI' },
   { id: 'reactnative', label: 'React Native' },
   { id: 'pubnub', label: 'PubNub' },
+  { id: 'websocket', label: 'WebSocket' },
 ];
 
 const getTechs = (techIds) => {

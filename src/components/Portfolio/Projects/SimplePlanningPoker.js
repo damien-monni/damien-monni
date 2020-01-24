@@ -8,7 +8,7 @@ const SimplePlanningPoker = ({ invert }) => {
     <Project
       title="Simple Planning Poker"
       subtitle="Projet personnel de planning poker pour la gestion de projet Agile"
-      techs={getTechs(['react', 'pubnub'])}
+      techs={getTechs(['react', 'websocket', 'pubnub'])}
       picture={{ src: 'simplepp', alt: 'Simple planning poker' }}
       invert={invert}
     >
@@ -19,9 +19,9 @@ const SimplePlanningPoker = ({ invert }) => {
       </p>
 
       <p>
-        Le défi était de créer une application sans backend en utilisant
-        javascript au maximum. La communication entre les différents “joueurs”
-        se fait via websocket à l’aide de PubNub.
+        Le défi était de créer une application sans back-end en utilisant
+        JavaScript au maximum. La communication entre les différents “joueurs”
+        se fait via WebSocket à l’aide de PubNub.
       </p>
 
       <p>

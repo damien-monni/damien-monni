@@ -14,19 +14,19 @@ const Digicolis = ({ invert }) => {
     >
       <p>
         Digicolis est une plateforme de gestion logistique permettant de rendre
-        accessible à tous commercant des fonctionnalité de livraison haute gamme
-        comme la livraison à la journée.
+        accessible à tout commerçant des fonctionnalités de livraison haut de
+        gamme comme la livraison à la journée.
       </p>
 
       <p>
         Il s’agit d’un ensemble d’applications : un site vitrine, une
         application d’administration et une PWA (application mobile disponible
-        sur le web) dédiée aux livreurs sur le terrain et un backend sous la
-        forme d’une API réalisée avec Node.js et MongoDB.
+        sur le web) dédiées aux livreurs sur le terrain et un back-end sous la
+        forme d’une API réalisé avec Node.js et MongoDB.
       </p>
 
       <p>
-        Les frontends sont réalisés en React. L’API Node.js est hébergée sur un
+        Les front-ends sont réalisés en React. L’API Node.js est hébergée sur un
         serveur VPS Digital Ocean et la base de données MongoDB sur Atlas.
       </p>
     </Project>

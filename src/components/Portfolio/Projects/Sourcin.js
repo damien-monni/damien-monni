@@ -14,15 +14,15 @@ const Digicolis = ({ invert }) => {
     >
       <p>
         Soucin est une entreprise proposant des formations en ligne réalisées
-        sur mesure pour chacun de ces clients qui sont majoritairement dans
+        sur mesure pour chacun de ses clients qui sont majoritairement dans
         l’industrie biopharmaceutique.
       </p>
 
       <p>
         Depuis plusieurs années, leur plateforme utilisait un système de gestion
         de contenu (CMS) appelé Liferay qui devenait limittant. Ils m’ont ainsi
-        demandé de migrer l’application vers une stack plus moderne : React et
-        AWS (Amazon Web Services).
+        demandé de migrer l’application vers un ensemble de technlogies plus
+        moderne : React et AWS (Amazon Web Services).
       </p>
 
       <p>
