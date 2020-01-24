@@ -20,6 +20,7 @@
 
 .email a {
   color: #0059a0;
+  white-space: nowrap;
 }
 
 @media (max-width: 1200px) {

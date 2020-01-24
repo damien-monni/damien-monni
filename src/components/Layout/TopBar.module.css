@@ -30,6 +30,10 @@
   margin: 0 var(--spacing-4);
 }
 
+.root ul li a {
+  color: inherit;
+}
+
 @media (min-width: 1200px) {
   .root ul {
     padding-top: var(--spacing-2);

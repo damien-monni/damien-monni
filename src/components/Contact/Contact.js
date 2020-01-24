@@ -17,7 +17,7 @@ const Contact = () => {
 
       <p className={styles.email}>
         Vous pouvez aussi m'écrire à{' '}
-        <a href="mailot:contact@damien-monni.com">contact@damien-monni.com</a>
+        <a href="mailto:contact@damien-monni.com">contact@damien-monni.com</a>
       </p>
 
       <div className={styles.formContainer}>
