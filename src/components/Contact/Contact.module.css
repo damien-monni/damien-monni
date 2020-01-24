@@ -5,7 +5,7 @@
 
 @media (min-width: 1200px) {
   .root {
-    margin-top: 200px;
+    margin-top: var(--spacing-10);
   }
 }
 
