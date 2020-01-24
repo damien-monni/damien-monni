@@ -9,7 +9,7 @@ const SimplePlanningPoker = ({ invert }) => {
       title="Simple Planning Poker"
       subtitle="Projet personnel de planning poker pour la gestion de projet Agile"
       techs={getTechs(['react', 'pubnub'])}
-      picture={{ src: 'damienmonni', alt: 'Damien Monni pro site' }}
+      picture={{ src: 'simplepp', alt: 'Simple planning poker' }}
       invert={invert}
     >
       <p>

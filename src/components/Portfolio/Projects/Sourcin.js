@@ -9,7 +9,7 @@ const Digicolis = ({ invert }) => {
       title="Sourcin"
       subtitle="Plateforme de e-learning pour l'industrie biopharmaceutique"
       techs={getTechs(['react', 'aws', 'pwa', 'mongo', 'express'])}
-      picture={{ src: 'damienmonni', alt: 'Damien Monni pro site' }}
+      picture={{ src: 'sourcin', alt: 'Portfolio dashboard' }}
       invert={invert}
     >
       <p>

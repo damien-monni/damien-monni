@@ -9,7 +9,7 @@ const Datastore = ({ invert }) => {
       title="Datastore"
       subtitle="Application web de collecte et analyse de données à partir d’automates industriels"
       techs={getTechs(['react', 'nodejs', 'meteor', 'mongo', 'raspberrypi'])}
-      picture={{ src: 'damienmonni', alt: 'Damien Monni pro site' }}
+      picture={{ src: 'datastore', alt: 'Datastore portfolio damien monni' }}
       invert={invert}
     >
       <p>

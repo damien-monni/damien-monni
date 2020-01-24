@@ -9,7 +9,7 @@ const Keeze = ({ invert }) => {
       title="Keeze"
       subtitle="Location d'espaces à la journée pour les entreprises"
       techs={getTechs(['react', 'meteor', 'mongo'])}
-      picture={{ src: 'damienmonni', alt: 'Damien Monni pro site' }}
+      picture={{ src: 'keeze', alt: 'Keeze damien portfolio' }}
       invert={invert}
     >
       <p>

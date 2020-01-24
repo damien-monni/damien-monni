@@ -9,7 +9,7 @@ const Neop = ({ invert }) => {
       title="Neop"
       subtitle="Application mobile de contrôle d'accès connecté"
       techs={getTechs(['reactnative'])}
-      picture={{ src: 'damienmonni', alt: 'Damien Monni pro site' }}
+      picture={{ src: 'neop', alt: 'Neop portfolio Damien Monni' }}
       invert={invert}
     >
       <p>

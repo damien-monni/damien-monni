@@ -13,14 +13,14 @@ const Perso = ({ invert }) => {
       invert={invert}
     >
       <p>
-        Il s’agit de mon site professionel dans lequel je me présente et montre
-        certains projets sur lesquels j’ai travaillé.
+        Il s’agit de mon site professionel qui fait office de site vitrine et
+        dans lequel je présente certains projets sur lesquels j’ai travaillé.
       </p>
 
       <p>
-        C’est un site vitrine réalisé avec React et exporté de manière statique
-        avec Next.js. De cette manière son référencement est optimisé et sa
-        vitesse de chargement améliorée.
+        C’est un site réalisé avec React et exporté de manière statique avec
+        Next.js. De cette manière son référencement est optimisé et sa vitesse
+        de chargement améliorée.
       </p>
 
       <p>J’ai réalisé moi-même le design en créant les maquettes avec Figma.</p>
