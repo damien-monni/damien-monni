@@ -6,7 +6,7 @@ import styles from './Footer.module.css';
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <p>Ce site a été designé et développé par Damien MONNI</p>
+      <p>Design et développement Damien Monni.</p>
 
       <p>
         Le code est libre et{' '}
@@ -16,7 +16,6 @@ const Footer = () => {
       </p>
 
       <p>
-        2020 -{' '}
         <Link href="/legal">
           <a>Mentions légales</a>
         </Link>

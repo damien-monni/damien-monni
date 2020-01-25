@@ -9,7 +9,7 @@ const Remote = () => {
         <p>
           Aujourd'hui, je privilégie les projets web effectués majoritairement
           en télétravail qui permettent à mon sens un fort gain en productivité
-          grâce à une une gestion du temps et organisation personnelle{' '}
+          grâce à une gestion du temps et organisation personnelle{' '}
           <strong>optimisée</strong>, <strong>autonome</strong> et{' '}
           <strong>productive</strong>.
         </p>
