@@ -75,7 +75,10 @@
 }
 
 .headerCodeContainer img {
+  width: 450px;
   max-width: 100%;
+  box-shadow: var(--shadow-hard);
+  border-radius: 4px;
 }
 
 .wavesContainer {
