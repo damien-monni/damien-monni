@@ -20,6 +20,16 @@ const Header = () => {
             <p className={styles.subtitle}>
               Développeur web et mobile freelance
             </p>
+
+            <div className={styles.portraitRoot}>
+              <div>
+                <picture>
+                  <source type="image/webp" srcSet="/img/me.webp?v1" />
+                  <img src="/img/me.jpg?v1" alt="Damien Monni" />
+                </picture>
+              </div>
+            </div>
+
             <Link href="#contact">
               <a className="btn btn-big">
                 <MailIcon className={styles.mailIcon} /> Un projet ?

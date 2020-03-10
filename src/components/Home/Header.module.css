@@ -41,13 +41,11 @@
 .subtitle {
   font-size: 1.2rem;
   letter-spacing: 1px;
-  margin-bottom: var(--spacing-4);
 }
 
 @media (min-width: 960px) {
   .subtitle {
     font-size: 1.8rem;
-    margin-bottom: var(--spacing-8);
   }
 }
 
@@ -79,6 +77,44 @@
   max-width: 100%;
   box-shadow: var(--shadow-hard);
   border-radius: 4px;
+}
+
+.portraitRoot,
+.portraitRoot * {
+  display: flex;
+  border-radius: 50%;
+}
+
+.portraitRoot {
+  justify-content: center;
+  margin: var(--spacing-4) 0;
+}
+
+.portraitRoot > div {
+  padding: var(--spacing-1);
+  border: 5px solid #24005d;
+}
+
+.portraitRoot picture {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  overflow: hidden;
+}
+
+.portraitRoot img,
+.portraitRoot source {
+  max-width: 100%;
+}
+
+@media (min-width: 960px) {
+  .portraitRoot {
+    justify-content: flex-start;
+  }
+
+  .portraitRoot picture {
+    width: 150px;
+  }
 }
 
 .wavesContainer {
