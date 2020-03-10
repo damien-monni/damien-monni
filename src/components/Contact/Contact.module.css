@@ -9,6 +9,10 @@
   }
 }
 
+.title {
+  scroll-margin-top: 120px;
+}
+
 .subtitle {
   font-size: 1.1rem;
 }

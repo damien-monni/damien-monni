@@ -7,7 +7,7 @@ import styles from './Contact.module.css';
 const Contact = () => {
   return (
     <section className={styles.root}>
-      <h2 id="contact" className="align-center">
+      <h2 id="contact" className={clsx(styles.title, 'align-center')}>
         Vous avez un projet ?
       </h2>
 
