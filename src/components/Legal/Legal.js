@@ -9,8 +9,8 @@ function Legal() {
       <h1>Mentions légales</h1>
       <p>Développé par Damien Monni.</p>
       <p>
-        Micro-entrepreneur domicilié au 6 rue Robert Schuman, 78120 Rambouillet.
-        SIRET 830 816 690 00010
+        Micro-entrepreneur domicilié au 3 route de Niedermorschwihr, 68230
+        Turckheim, FRANCE. SIRET 830 816 690 00044
       </p>
       <p>contact@damien-monni.com - +33 (0)6 67 95 56 76.</p>
       <p>Directeur de la publication : Damien Monni.</p>
