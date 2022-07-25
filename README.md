@@ -13,3 +13,8 @@ Heroicon icons are made in two variants, solid or outline. We are using the outl
 ## Class concatenation
 
 We are using the `clsx` package to concatenate class names
+
+## File structure
+
+- Design system
+- Components by feature
