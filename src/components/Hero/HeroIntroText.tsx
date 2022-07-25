@@ -1,6 +1,6 @@
 import Chip from '../../DesignSystem/Chip/Chip';
 
-export default function HeroText() {
+export default function HeroIntroText() {
   return (
     <div>
       <div className="flex">

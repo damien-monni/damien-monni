@@ -32,3 +32,9 @@ Secondary.args = {
   color: 'secondary',
   children: 'Button',
 };
+
+export const Large = Template.bind({});
+Large.args = {
+  size: 'large',
+  children: 'Button',
+};
