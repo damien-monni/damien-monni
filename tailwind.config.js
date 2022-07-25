@@ -15,7 +15,7 @@ module.exports = {
         'primary-text': '#262626',
         primary: {
           main: '#2871FF',
-          light: '#DBE7FF',
+          light: '#F4F9FC',
           dark: '#052B74',
           contrastText: '#FFFFFF',
         },
@@ -31,6 +31,7 @@ module.exports = {
           dark: '#FFC776',
           contrastText: '#262626',
         },
+        divider: '#EDEDED',
       },
     },
   },
