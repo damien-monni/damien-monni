@@ -1,15 +1,18 @@
-export default function Hero() {
+import clsx from 'clsx';
+import HeroText from './HeroText';
+
+interface HeroProps {
+  className?: string;
+}
+
+export default function Hero({ className }: HeroProps) {
   return (
-    <section>
-      <div>
-        <h1>Damien Monni</h1>
-        <p>
-          Développeur web à <span>Limoges</span>, et{' '}
-          <span>partout ailleurs</span>.
-        </p>
+    <section className={clsx('flex', className)}>
+      <div className="flex-1">
+        <HeroText />
       </div>
 
-      <div>{/* Image */}</div>
+      <div className="flex-1"></div>
     </section>
   );
 }
