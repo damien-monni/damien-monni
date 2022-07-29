@@ -7,10 +7,7 @@ interface CraftmanProps {
 export default function Craftman({ className }: CraftmanProps) {
   return (
     <section
-      className={clsx(
-        'bg-primary-text text-white px-20 py-40 text-center',
-        className,
-      )}
+      className={clsx('bg-black text-white px-20 py-40 text-center', className)}
     >
       <h2>Artisan logiciel passionné</h2>
 

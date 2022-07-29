@@ -9,7 +9,7 @@ export default function Topbar({ className }: TopbarProps) {
   return (
     <div
       className={clsx(
-        'py-4 border-b border-divider bg-white bg-opacity-90 backdrop-blur',
+        'py-2 border-b border-divider bg-white bg-opacity-90 backdrop-blur',
         className,
       )}
     >

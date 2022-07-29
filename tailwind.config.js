@@ -13,7 +13,8 @@ module.exports = {
         sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        'primary-text': '#262626',
+        'primary-text': '#30404D',
+        black: '#262626',
         primary: {
           main: '#2871FF',
           light: '#F4F9FC',
