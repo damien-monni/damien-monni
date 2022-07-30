@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+import Agile from '../components/Agile/Agile';
 import Craftman from '../components/Craftman/Craftman';
 import Hero from '../components/Hero/Hero';
 import Services from '../components/Services/Services';
@@ -19,6 +20,8 @@ const Home: NextPage = () => {
       </section>
 
       <Services className="max-w-6xl mx-auto my-28" />
+
+      <Agile className="max-w-6xl mx-auto mb-28" />
     </>
   );
 };
