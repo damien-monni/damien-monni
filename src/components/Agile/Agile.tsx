@@ -10,7 +10,7 @@ export default function Agile({ className }: AgileProps) {
       <div className="bg-tertiary-light px-14 py-14 translate-x-10 translate-y-10">
         <h2>Une gestion de projet agile</h2>
 
-        <p className="text-2xl mb-16">
+        <p className="text-2xl mb-12">
           pour un déroulement fluide et efficace.
         </p>
 
