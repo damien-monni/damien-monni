@@ -1,7 +1,7 @@
 import { PropsWithChildren } from 'react';
 import clsx from 'clsx';
 
-interface ButtonProps {
+export interface ChipProps {
   /**
    * Class name to add custom styles to the button.
    */
@@ -10,23 +10,33 @@ interface ButtonProps {
   /**
    * Color of the button based on the theme.
    */
-  color?: 'default' | 'primary' | 'secondary';
+  color?: 'default' | 'primary' | 'secondary' | 'orange' | 'blue' | 'purple';
+
+  textNormal?: boolean;
 }
 
 export default function Chip({
   className,
   color = 'default',
+  textNormal = false,
   children,
-}: PropsWithChildren<ButtonProps>) {
+}: PropsWithChildren<ChipProps>) {
   return (
     <div className={clsx('flex', className)}>
       <p
         className={clsx(
-          'text-xs uppercase rounded-full px-3 py-1.5 whitespace-nowrap',
+          'text-xs rounded-full px-3 py-1.5 mt-0 mb-0 whitespace-nowrap',
+          textNormal ? '' : 'uppercase',
           color === 'primary'
             ? 'bg-primary-main text-primary-contrastText'
             : color === 'secondary'
             ? 'bg-secondary-main text-secondary-contrastText'
+            : color === 'orange'
+            ? 'bg-orange-500 text-white'
+            : color === 'blue'
+            ? 'bg-blue-500 text-white'
+            : color === 'purple'
+            ? 'bg-purple-500 text-white'
             : 'bg-primary-text text-white',
         )}
       >
