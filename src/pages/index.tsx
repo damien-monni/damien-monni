@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Agile from '../components/Agile/Agile';
+import Contact from '../components/Contact/Contact';
 import Craftman from '../components/Craftman/Craftman';
 import Experiences from '../components/Experience/Experiences';
 import Hero from '../components/Hero/Hero';
@@ -28,6 +29,8 @@ const Home: NextPage = () => {
       <Experiences className="max-w-6xl mx-auto mb-40" />
 
       <Projects className="max-w-6xl mx-auto mb-40" />
+
+      <Contact className="max-w-6xl mx-auto mb-40" />
     </>
   );
 };
