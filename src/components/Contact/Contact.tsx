@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import Underline from '../../DesignSystem/Underline/Underline';
+import ContactForm from './ContactForm';
 
 interface ContactProps {
   className?: string;
@@ -8,6 +9,12 @@ interface ContactProps {
 export default function Contact({ className }: ContactProps) {
   return (
     <section className={clsx(className)}>
+      <div className="flex justify-center">
+        <picture>
+          <img src="/img/contact.png" alt="contact" />
+        </picture>
+      </div>
+
       <h2 className="text-center">On travaille ensemble ?</h2>
 
       <p className="text-2xl text-center">
@@ -21,10 +28,12 @@ export default function Contact({ className }: ContactProps) {
         </a>
       </p>
 
-      <p className="mt-10 text-center">
+      <p className="mt-10 mb-14 text-center">
         Ou bien contactez-moi directement depuis le formulaire de contact
         suivant. <span className="text-lg">😉</span>
       </p>
+
+      <ContactForm className="max-w-2xl mx-auto" />
     </section>
   );
 }
