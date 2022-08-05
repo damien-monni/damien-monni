@@ -29,8 +29,8 @@ export default function Contact({ className }: ContactProps) {
       </p>
 
       <p className="mt-10 mb-14 text-center">
-        Ou bien contactez-moi directement depuis le formulaire de contact
-        suivant. <span className="text-lg">😉</span>
+        Ou bien contactez-moi directement depuis le formulaire suivant.{' '}
+        <span className="text-lg">😉</span>
       </p>
 
       <ContactForm className="max-w-2xl mx-auto" />
