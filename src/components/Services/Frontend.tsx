@@ -2,7 +2,20 @@ import Service from './Service';
 
 export default function Frontend() {
   return (
-    <Service title="Frontend">
+    <Service
+      title="Frontend"
+      icons={[
+        <picture key="react">
+          <img className="w-6" src="/img/skills/react.svg" alt="React" />
+        </picture>,
+        <picture key="nextjs">
+          <img className="w-12" src="/img/skills/nextjs.svg" alt="React" />
+        </picture>,
+        <picture key="tailwind">
+          <img className="w-24" src="/img/skills/tailwind.svg" alt="React" />
+        </picture>,
+      ]}
+    >
       <p>
         Je travail quotidiennement sur du code front-end avec React, depuis
         maintenant plus de 5 ans.
