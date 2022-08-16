@@ -1,3 +1,0 @@
-[build.develop]
-  publish = ".next/"
-  command = "npm run build"
