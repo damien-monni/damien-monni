@@ -1,4 +1,4 @@
-# Damien Monni - Javascript freelance full-stack web developer
+# 👨‍💻 Damien Monni - Javascript freelance full-stack web developer ⭐️
 
 This is my personal website as a javascript full-stack web developer.
 This website is about the services I provide, the skills I have and my previous experiences.
