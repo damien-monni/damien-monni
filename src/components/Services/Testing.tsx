@@ -2,7 +2,17 @@ import Service from './Service';
 
 export default function Testing() {
   return (
-    <Service title="Testing">
+    <Service
+      title="Testing"
+      icons={[
+        <picture key="jest">
+          <img className="w-14" src="/img/skills/jest.png" alt="Jest" />
+        </picture>,
+        <picture key="cypress">
+          <img className="w-14" src="/img/skills/cypress.png" alt="Cypress" />
+        </picture>,
+      ]}
+    >
       <p>
         L’écriture de tests automatisés dans votre code est une nécessité. Un
         code qui n’est pas testé deviendra très rapidement difficile à faire

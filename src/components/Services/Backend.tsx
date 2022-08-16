@@ -2,7 +2,17 @@ import Service from './Service';
 
 export default function Backend() {
   return (
-    <Service title="Backend">
+    <Service
+      title="Backend"
+      icons={[
+        <picture key="nodejs">
+          <img className="w-10" src="/img/skills/node.png" alt="Node.js" />
+        </picture>,
+        <picture key="graphql">
+          <img className="w-16" src="/img/skills/graphql.png" alt="GraphQL" />
+        </picture>,
+      ]}
+    >
       <p>
         Étant spécialisé dans l’éco-système Javascript, Node.js est mon
         environnement backend de prédilection.

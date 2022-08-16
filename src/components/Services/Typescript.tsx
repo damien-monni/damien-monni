@@ -2,7 +2,18 @@ import Service from './Service';
 
 export default function Typescript() {
   return (
-    <Service title="Typescript">
+    <Service
+      title="Typescript"
+      icons={[
+        <picture key="typescript">
+          <img
+            className="w-6"
+            src="/img/skills/typescript.png"
+            alt="Typescript"
+          />
+        </picture>,
+      ]}
+    >
       <p>
         Typescript est une surcouche Javascript indispensable pour tout projet
         professionel.

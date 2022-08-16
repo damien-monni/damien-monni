@@ -9,10 +9,14 @@ export default function Frontend() {
           <img className="w-6" src="/img/skills/react.svg" alt="React" />
         </picture>,
         <picture key="nextjs">
-          <img className="w-12" src="/img/skills/nextjs.svg" alt="React" />
+          <img className="w-12" src="/img/skills/nextjs.svg" alt="Next.js" />
         </picture>,
         <picture key="tailwind">
-          <img className="w-24" src="/img/skills/tailwind.svg" alt="React" />
+          <img
+            className="w-24"
+            src="/img/skills/tailwind.svg"
+            alt="Tailwind CSS"
+          />
         </picture>,
       ]}
     >
