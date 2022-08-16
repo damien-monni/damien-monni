@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import Underline from '../../DesignSystem/Underline/Underline';
+import Underline from '../../design-system/Underline/Underline';
 import ContactForm from './ContactForm';
 
 interface ContactProps {

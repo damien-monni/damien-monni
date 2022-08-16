@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import Button from '../../DesignSystem/Button/Button';
+import Button from '../../design-system/Button/Button';
 import HeroExperience from './HeroExperience';
 import HeroIntroText from './HeroIntroText';
 import MePicture from './MePicture';

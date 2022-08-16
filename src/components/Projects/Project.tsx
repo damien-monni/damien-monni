@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import Image, { StaticImageData } from 'next/image';
 import { PropsWithChildren } from 'react';
-import Chip, { ChipProps } from '../../DesignSystem/Chip/Chip';
+import Chip, { ChipProps } from '../../design-system/Chip/Chip';
 
 interface ProjectProps {
   className?: string;

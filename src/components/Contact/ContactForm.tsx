@@ -1,6 +1,6 @@
 import clsx from 'clsx';
-import Button from '../../DesignSystem/Button/Button';
-import TextField from '../../DesignSystem/TextField/TextField';
+import Button from '../../design-system/Button/Button';
+import TextField from '../../design-system/TextField/TextField';
 
 interface ContactFormProps {
   className?: string;

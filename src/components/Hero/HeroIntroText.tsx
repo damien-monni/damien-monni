@@ -1,4 +1,4 @@
-import Chip from '../../DesignSystem/Chip/Chip';
+import Chip from '../../design-system/Chip/Chip';
 
 export default function HeroIntroText() {
   return (
