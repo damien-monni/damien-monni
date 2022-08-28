@@ -6,7 +6,7 @@
     "test": "jest --watch",
     "test:ci": "jest --ci",
     "dev": "next dev",
-    "build": "npm run test:ci && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
