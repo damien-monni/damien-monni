@@ -42,6 +42,10 @@ You should be able to access the application locally at `http://localhost:3000`.
 
 The way you build and deploy the website depends on your needs and is covered in the [Next.js documentation](https://nextjs.org/docs/deployment).
 
+## Continous Integration (CI)
+
+There is a GitHub Action configuration file in `.github/workflows` that can be used in a CI system.
+
 ## File structure
 
 Source code is located in the `./src` directory.
