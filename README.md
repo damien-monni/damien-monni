@@ -38,13 +38,30 @@ npm install
 
 You should be able to access the application locally at `http://localhost:3000`.
 
-## Build and deploy
+## Testing
+
+Run `npm run test` to run unit and integration tests.
+
+Tests are written using Jest and the popular [Testing Library](https://testing-library.com/).
+
+## Continuous Integration / Continuous Deployment (CI/CD)
 
 The way you build and deploy the website depends on your needs and is covered in the [Next.js documentation](https://nextjs.org/docs/deployment).
 
-## Continous Integration (CI)
+The following section `Example of CI/CD` describes how the CI/CD is set up for https://damien-monni.com.
 
-There is a GitHub Action configuration file in `.github/workflows` that can be used in a CI system.
+### Example of CI/CD
+
+GitHub Actions is used as the CI/CD system.
+The final applicatio is hosted on Vercel.
+
+By default, when the Vercel project is created, the project is linked to the GitHub repository and automatic CI/CD pipelines are created to build and deploy the application. To have full control over the CI/CD pipelines, the link between Vercel and GitHub is removed in the Vercel project and GitHub Actions are used to test, build and deploy the application. This way, we have full control over the CI/CD pipelines.
+
+There is a Vercel guide explaining how this can be set up: [https://vercel.com/guides/how-can-i-use-github-actions-with-vercel](https://vercel.com/guides/how-can-i-use-github-actions-with-vercel).
+
+Basically, GitHub actions uses the Vercel CI to manualy build and deploy the application from GitHub to Vercel. This replaces the automatic CI/CD that Vercel uses by default, but allowing us to add custom steps in GitHub actions before the build and deploy steps are run.
+
+The `.github/workflows` files describes the specific steps that are made.
 
 ## File structure
 
