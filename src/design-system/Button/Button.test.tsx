@@ -6,5 +6,5 @@ test('renders a button HTML element with "My button" text', () => {
 
   const button = screen.getByText('My button');
   expect(button).toBeInstanceOf(HTMLButtonElement);
-  expect(button).toHaveTextContent('My button');
+  expect(button).toHaveTextContent('My button FAILED');
 });
