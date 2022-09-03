@@ -4,6 +4,7 @@ import Contact from '../components/Contact/Contact';
 import Craftman from '../components/Craftman/Craftman';
 import Experiences from '../components/Experience/Experiences';
 import Hero from '../components/Hero/Hero';
+import HeroAndCraftman from '../components/HeroAndCraftman/HeroAndCraftman';
 import Projects from '../components/Projects/Projects';
 import Services from '../components/Services/Services';
 import Topbar from '../components/Topbar/Topbar';
@@ -13,16 +14,9 @@ const Home: NextPage = () => {
     <>
       <Topbar className="fixed top-0 right-0 left-0 z-50" />
 
-      <section className="bg-primary-light pt-40 pb-32">
-        <Hero className="max-w-6xl mx-auto" />
+      <HeroAndCraftman className="bg-primary-light mb-28 pt-40 pb-32" />
 
-        {/* We make the Craftman section slightly wider than the Hero */}
-        <div className="max-w-6xl mx-auto relative z-10 -translate-y-1">
-          <Craftman className="-mx-20" />
-        </div>
-      </section>
-
-      <Services className="max-w-6xl mx-auto my-28" />
+      <Services className="max-w-6xl mx-auto mb-40" />
 
       <Agile className="max-w-6xl mx-auto mb-40" />
 
