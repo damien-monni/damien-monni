@@ -9,6 +9,8 @@ on:
 jobs:
   Deploy-Preview:
     runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_FORMSPREE_CONTACT_FORM_ID: ${{secrets.NEXT_PUBLIC_FORMSPREE_CONTACT_FORM_ID}}
     steps:
       - name: Checkout the code
         uses: actions/checkout@v3
