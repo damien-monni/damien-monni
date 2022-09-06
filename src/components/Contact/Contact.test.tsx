@@ -1,6 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import Contact from './Contact';
 
+jest.mock('@formspree/react', () => ({
+  useForm: () => [{}, jest.fn()],
+}));
+
 test('renders a direct email link', () => {
   render(<Contact />);
   const emailLink = screen.getByRole('link', {
