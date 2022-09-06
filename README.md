@@ -32,7 +32,9 @@ cd damien-monni
 npm install
 ```
 
-3. Run the development server
+3. Duplicate `.env.local.example` and `.env.test.local.example` files, remove the `example` from their filenames, and fill them with the right values.
+
+4. Run the development server
 
 `npm run dev`
 
