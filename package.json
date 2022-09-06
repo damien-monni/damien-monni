@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "private": true,
   "scripts": {
-    "test": "jest --watch",
+    "test": "jest --coverage --collectCoverageFrom=./src/**/*.{js,jsx,ts,tsx}",
     "test:ci": "jest --ci",
     "dev": "next dev",
     "build": "next build",
