@@ -13,3 +13,8 @@ test('renders a button with the text "My button"', () => {
 
   screen.getByText('My button');
 });
+
+test('renders a button with the primary color', () => {
+  render(<Button color="primary">My button</Button>);
+  expect(screen.getByText('My button')).toHaveClass('bg-primary-main');
+});
