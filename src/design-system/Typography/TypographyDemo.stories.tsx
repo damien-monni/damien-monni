@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { ComponentMeta } from '@storybook/react';
 import Typography from './TypographyDemo';
 
 export default {
@@ -11,7 +11,5 @@ export default {
   title: 'TypographyDemo',
   component: Typography,
 } as ComponentMeta<typeof Typography>;
-
-const Template: ComponentStory<typeof Typography> = (args) => <Typography />;
 
 export const TypographyDemo = () => <Typography />;

@@ -21,6 +21,9 @@ jobs:
       - name: Run unit and integration tests
         run: npm run test:ci
 
+      - name: Run linter
+        run: npm run lint
+
       - uses: codecov/codecov-action@v3
 
       - name: Install Vercel CLI

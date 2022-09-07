@@ -1,9 +1,7 @@
 import type { NextPage } from 'next';
 import Agile from '../components/Agile/Agile';
 import Contact from '../components/Contact/Contact';
-import Craftman from '../components/Craftman/Craftman';
 import Experiences from '../components/Experience/Experiences';
-import Hero from '../components/Hero/Hero';
 import HeroAndCraftman from '../components/HeroAndCraftman/HeroAndCraftman';
 import Projects from '../components/Projects/Projects';
 import Services from '../components/Services/Services';
