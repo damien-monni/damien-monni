@@ -1,4 +1,4 @@
-# Damien Monni - Javascript freelance full-stack web developer 👨‍💻
+# Damien Monni - Javascript senior full-stack web developer 👨‍💻
 
 ![preview workflow](https://github.com/damien-monni/damien-monni/actions/workflows/preview.yml/badge.svg)
 [![codecov](https://codecov.io/gh/damien-monni/damien-monni/branch/master/graph/badge.svg?token=QPYTCZ5X7A)](https://codecov.io/gh/damien-monni/damien-monni)
