@@ -1,5 +1,7 @@
 # Damien Monni - Javascript freelance full-stack web developer 👨‍💻
 
+![preview workflow](https://github.com/damien-monni/damien-monni/actions/workflows/preview.yml/badge.svg)
+
 This is my personal website as a javascript full-stack web developer.
 This website is about the services I provide, the skills I have and my previous experiences.
 
