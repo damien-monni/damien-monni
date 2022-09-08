@@ -1,4 +1,4 @@
-import MailIcon from '@heroicons/react/outline/MailIcon';
+import MailIcon from '@heroicons/react/24/outline/EnvelopeIcon';
 import clsx from 'clsx';
 
 interface TopbarProps {

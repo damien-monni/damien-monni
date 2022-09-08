@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "private": true,
   "scripts": {
-    "test": "jest",
+    "test": "jest --watch",
     "test:ci": "jest --ci",
     "dev": "next dev",
     "build": "next build",
@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "@formspree/react": "^2.3.3",
-    "@heroicons/react": "^1.0.6",
+    "@headlessui/react": "^1.7.0",
+    "@heroicons/react": "^2.0.10",
     "clsx": "^1.2.1",
     "next": "^12.2.2",
     "react": "18.2.0",

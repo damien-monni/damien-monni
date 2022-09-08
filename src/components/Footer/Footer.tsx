@@ -1,3 +1,5 @@
+import Legal from '../Legal/Legal';
+
 export default function Footer() {
   return (
     <footer className="bg-primary-text text-white py-12 text-center text-sm">
@@ -13,7 +15,7 @@ export default function Footer() {
         .
       </p>
 
-      <p className="my-2">Mentions légales</p>
+      <Legal />
     </footer>
   );
 }
