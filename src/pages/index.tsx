@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import Agile from '../components/Agile/Agile';
 import Contact from '../components/Contact/Contact';
 import Experiences from '../components/Experience/Experiences';
+import Footer from '../components/Footer/Footer';
 import HeroAndCraftman from '../components/HeroAndCraftman/HeroAndCraftman';
 import Projects from '../components/Projects/Projects';
 import Services from '../components/Services/Services';
@@ -23,6 +24,8 @@ const Home: NextPage = () => {
       <Projects className="max-w-6xl mx-auto mb-40" />
 
       <Contact className="max-w-6xl mx-auto mb-40" />
+
+      <Footer />
     </>
   );
 };
