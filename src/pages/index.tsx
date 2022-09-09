@@ -13,9 +13,9 @@ const Home: NextPage = () => {
     <>
       <Topbar className="fixed top-0 right-0 left-0 z-50" />
 
-      <HeroAndCraftman className="bg-primary-light pt-36 px-4 pb-16 sm:mb-28 sm:pt-40 sm:pb-32" />
+      <HeroAndCraftman className="bg-primary-light pt-36 px-4 pb-16 mb-16 sm:mb-28 sm:pt-40 sm:pb-32" />
 
-      <Services className="max-w-6xl mx-auto mb-40" />
+      <Services className="max-w-6xl mx-auto sm:mb-40" />
 
       <Agile className="max-w-6xl mx-auto mb-40" />
 
