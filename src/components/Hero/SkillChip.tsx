@@ -12,7 +12,7 @@ export default function SkillChip({ className, classes, src }: SkillChipProps) {
   return (
     <div
       className={clsx(
-        'w-16 h-16 p-3 bg-white shadow-2xl rounded-full flex-shrink-0 flex items-center justify-center z-20',
+        'w-14 h-14 lg:w-16 lg:h-16 p-3 bg-white shadow-2xl rounded-full flex-shrink-0 flex items-center justify-center z-20',
         className,
       )}
     >

@@ -11,8 +11,8 @@ export default function HeroAndCraftman({ className }: HeroAndCraftmanProps) {
       <Hero className="max-w-6xl mx-auto" />
 
       {/* We make the Craftman section slightly wider than the Hero */}
-      <div className="max-w-6xl mx-auto relative z-10 -translate-y-1">
-        <Craftman className="-mx-20" />
+      <div className="max-w-3xl lg:max-w-6xl mx-auto relative z-10 -translate-y-1">
+        <Craftman className="2xl:-mx-20" />
       </div>
     </section>
   );

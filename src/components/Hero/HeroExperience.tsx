@@ -10,8 +10,8 @@ interface HeroExperienceProps {
 export default function HeroExperience({ className }: HeroExperienceProps) {
   return (
     <div className={clsx(className)}>
-      <p className="flex items-center mb-8">
-        <span className="text-primary-main text-6xl font-bold w-32 text-center">
+      <p className="flex items-center mb-4 sm:mb-8">
+        <span className="text-primary-main text-4xl w-20 font-bold text-center sm:text-6xl sm:w-32">
           10
         </span>
         <span className="inline-flex max-w-[250px]">
@@ -20,7 +20,7 @@ export default function HeroExperience({ className }: HeroExperienceProps) {
       </p>
 
       <p className="flex items-center">
-        <span className="text-secondary-main text-6xl font-bold w-32 text-center">
+        <span className="text-secondary-main text-4xl w-20 font-bold text-center sm:text-6xl sm:w-32">
           5
         </span>
         <span className="inline-flex max-w-[250px]">

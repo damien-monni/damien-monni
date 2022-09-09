@@ -10,23 +10,23 @@ interface HeroProps {
 
 export default function Hero({ className }: HeroProps) {
   return (
-    <section className={clsx('flex', className)}>
+    <section className={clsx('lg:flex', className)}>
       {/* Left side of the Hero */}
-      <div className="flex-1 mb-28">
+      <div className="flex flex-col items-center lg:items-start lg:flex-1 lg:mb-28">
         <HeroIntroText />
 
-        <div className="my-14">
+        <div className="my-4 lg:my-10">
           <Button color="secondary" size="large">
             Contactez-moi
           </Button>
         </div>
 
-        <HeroExperience className="-ml-8" />
+        <HeroExperience className="lg:-ml-8" />
       </div>
 
       {/* Right side of the Hero */}
-      <div className="flex-1 relative">
-        <MePicture className="absolute bottom-0 left-0 right-0" />
+      <div className="lg:flex-1 lg:relative">
+        <MePicture className="lg:absolute lg:bottom-0 lg:left-0 lg:right-0" />
       </div>
     </section>
   );

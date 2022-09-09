@@ -4,16 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply text-[14px] lg:text-[16px];
+}
+
 body {
   @apply text-primary-text;
 }
 
 h1 {
-  @apply text-6xl font-bold;
+  @apply text-4xl lg:text-6xl font-bold;
 }
 
 h2 {
-  @apply text-5xl font-bold uppercase;
+  @apply text-3xl lg:text-5xl font-bold uppercase;
 }
 
 h3 {
