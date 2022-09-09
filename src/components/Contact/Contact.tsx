@@ -8,7 +8,7 @@ interface ContactProps {
 
 export default function Contact({ className }: ContactProps) {
   return (
-    <section className={clsx(className)}>
+    <section id="contact" className={clsx(className, 'scroll-mt-20')}>
       <div className="flex justify-center">
         <picture>
           <img src="/img/contact.png" alt="contact" />

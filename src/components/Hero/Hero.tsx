@@ -1,5 +1,4 @@
 import clsx from 'clsx';
-import Button from '../../design-system/Button/Button';
 import HeroExperience from './HeroExperience';
 import HeroIntroText from './HeroIntroText';
 import MePicture from './MePicture';
@@ -16,9 +15,12 @@ export default function Hero({ className }: HeroProps) {
         <HeroIntroText />
 
         <div className="my-4 lg:my-10">
-          <Button color="secondary" size="large">
+          <a
+            href="#contact"
+            className="bg-secondary-main text-secondary-contrastText px-8 py-4"
+          >
             Contactez-moi
-          </Button>
+          </a>
         </div>
 
         <HeroExperience className="lg:-ml-8" />
