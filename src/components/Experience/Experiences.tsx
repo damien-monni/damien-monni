@@ -11,7 +11,7 @@ interface ExperiencesProps {
 export default function Experiences({ className }: ExperiencesProps) {
   return (
     <section className={clsx(className)}>
-      <h2 className="mb-20">
+      <h2 className="text-center md:text-left mb-20">
         Une vision{' '}
         <em className="not-italic bg-primary-main text-primary-contrastText px-2 drop-shadow-[8px_8px_0_#DBE7FF]">
           professionnelle
@@ -20,11 +20,11 @@ export default function Experiences({ className }: ExperiencesProps) {
 
       <Engineer />
 
-      <ExperienceDivider className="my-14" />
+      <ExperienceDivider className="hidden my-14 md:block" />
 
-      <Remote />
+      <Remote className="my-12 md:my-0" />
 
-      <ExperienceDivider className="my-14 -scale-x-100" />
+      <ExperienceDivider className="hidden my-14 -scale-x-100 md:block" />
 
       <Design />
     </section>

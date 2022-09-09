@@ -22,7 +22,7 @@ export default function Services({ className }: ServicesProps) {
         sur toute votre application.
       </p>
 
-      <div className="grid gap-4 mx-4 sm:grid-cols-2 sm:gap-10 lg:grid-cols-3 lg:gap-20">
+      <div className="grid gap-4 sm:grid-cols-2 sm:gap-10 lg:grid-cols-3 lg:gap-20">
         <Frontend />
 
         <Backend />

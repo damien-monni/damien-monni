@@ -7,17 +7,17 @@ interface RemoteProps {
 export default function Remote({ className }: RemoteProps) {
   return (
     <section className={clsx(className)}>
-      <div className="flex items-center">
-        <div className="flex-[7] flex justify-center">
+      <div className="flex flex-col md:flex-row items-center">
+        <div className="flex-[7] mb-4 md:mb-0 flex justify-center">
           <picture>
-            <img src="/img/remote.svg" alt="Ingénieur" className="w-32" />
+            <img src="/img/remote.svg" alt="Design" className="w-20 md:w-36" />
           </picture>
         </div>
 
         <div className="flex-[10]">
-          <h3 className="normal-case font-normal text-2xl mb-10">
+          <h3 className="normal-case font-normal text-xl md:text-2xl mb-10 text-center md:text-left">
             <span className="relative inline-flex">
-              <span className="bg-[#DBE7FF] absolute inset-0 translate-x-2 translate-y-2 -z-10" />
+              <span className="bg-[#DBE7FF] absolute inset-0 md:translate-x-2 md:translate-y-2 -z-10" />
               Exploiter le télé-travail pour une performance accrue
             </span>
           </h3>
