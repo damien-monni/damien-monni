@@ -12,7 +12,7 @@ export default function Sourcin({ className }: SourcinProps) {
       imageAlt="Sourcin"
       title="Sourcin"
       subtitle="E-learning pour l'industrie biopharmaceutique"
-      skills={['React']}
+      skills={['React', 'AWS', 'Node.js', 'DynamoDB', 'Typescript']}
       className={className}
     >
       <p>

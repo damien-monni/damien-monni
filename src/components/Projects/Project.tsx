@@ -26,9 +26,9 @@ export default function Project({
         <h3>{title}</h3>
         <p className="mt-0 mb-0 opacity-70 text-lg">{subtitle}</p>
 
-        <div className="flex items-center mt-2">
+        <div className="flex items-center flex-wrap mt-2 mb-6">
           {skills.map((skillName, index) => (
-            <Skill key={index} name={skillName} />
+            <Skill key={index} className="mr-2" name={skillName} />
           ))}
         </div>
 

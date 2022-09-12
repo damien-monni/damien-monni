@@ -10,7 +10,17 @@ export interface ChipProps {
   /**
    * Color of the button based on the theme.
    */
-  color?: 'default' | 'primary' | 'secondary' | 'orange' | 'blue' | 'purple';
+  color?:
+    | 'default'
+    | 'primary'
+    | 'secondary'
+    | 'orange'
+    | 'blue'
+    | 'purple'
+    | 'green'
+    | 'amber'
+    | 'violet'
+    | 'rose';
 
   textNormal?: boolean;
 }
@@ -37,6 +47,14 @@ export default function Chip({
             ? 'bg-blue-500 text-white'
             : color === 'purple'
             ? 'bg-purple-500 text-white'
+            : color === 'green'
+            ? 'bg-green-600 text-white'
+            : color === 'amber'
+            ? 'bg-amber-500 text-white'
+            : color === 'rose'
+            ? 'bg-rose-500 text-white'
+            : color === 'violet'
+            ? 'bg-violet-500 text-white'
             : 'bg-primary-text text-white',
         )}
       >
