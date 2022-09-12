@@ -38,3 +38,9 @@ Large.args = {
   size: 'large',
   children: 'Button',
 };
+
+export const Loading = Template.bind({});
+Loading.args = {
+  children: 'Button',
+  loading: true,
+};
