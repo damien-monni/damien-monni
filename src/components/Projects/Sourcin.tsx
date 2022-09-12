@@ -33,22 +33,22 @@ export default function Sourcin({ className }: SourcinProps) {
         Le domaine de la biopharmaceutique demande une grande maitrise de
         l'infrastructure et des données de la plateforme, ce qui leur impose de
         développer leur propre plateforme d'hébergement et de distribution de
-        leurs contenus de formation.
+        contenus.
       </p>
 
       <p>
         Sur ce projet long terme, mon rôle a été pendant 4 ans de déveloper une
         grande partie de la plateforme, parfois seul, parfois en équipe, de
         définir l'infrastructure, de la sécuriser et d'avoir un rôle de lead
-        technique lors des phase de développement en équipe.
+        technique lors des phases de développement en équipe.
       </p>
 
       <p>
-        La stack est composée d'un front-end React et d'un backend 100%
+        La stack est composée d'un frontend React et d'un backend 100%
         Serverless hébergé sur AWS. Le backend utilise entre autres les services
         AWS Lambda, S3, API Gateway, Cognito, DynamoDB et Aurora PostgreSQL
         Serverless. L'infrastructure est déclarée par code (Infrastructure as
-        Code) avec <em>Serverless Framework</em>.
+        Code) avec Serverless Framework.
       </p>
     </Project>
   );
