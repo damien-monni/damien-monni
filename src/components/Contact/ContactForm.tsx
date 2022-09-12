@@ -9,7 +9,15 @@ interface ContactFormProps {
 }
 
 export default function ContactForm({ className }: ContactFormProps) {
-  const { state, email, message, onInputChange, onSubmit } = useContactForm();
+  const {
+    state,
+    email,
+    message,
+    successOpen,
+    onInputChange,
+    onSuccessClose,
+    onSubmit,
+  } = useContactForm();
 
   return (
     // We use Formspree to avoid creating a backend just for this form
@@ -19,7 +27,7 @@ export default function ContactForm({ className }: ContactFormProps) {
       name="damien-monni-contact"
       onSubmit={onSubmit}
     >
-      {state.succeeded ? <FormSuccess /> : null}
+      <FormSuccess open={successOpen} onClose={onSuccessClose} />
 
       <div className="mb-8">
         <TextField

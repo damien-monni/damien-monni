@@ -1,9 +1,18 @@
-export default function FormSuccess() {
+import SystemDialog from '../../design-system/Dialog/Dialog';
+
+interface FormSuccessProps {
+  open: boolean;
+  onClose: () => void;
+}
+
+export default function FormSuccess({ open, onClose }: FormSuccessProps) {
   return (
-    <p className="bg-green-100 text-green-900 px-4 py-2 text-sm rounded text-center">
-      Votre message a correctement été envoyé.
-      <br />
-      Je vous recontacterai dès que possible.
-    </p>
+    <SystemDialog open={open} onClose={onClose}>
+      <p>
+        Votre message a correctement été envoyé.
+        <br />
+        Je vous recontacterai dès que possible.
+      </p>
+    </SystemDialog>
   );
 }
