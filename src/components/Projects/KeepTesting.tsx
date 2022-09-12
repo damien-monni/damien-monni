@@ -12,11 +12,7 @@ export default function KeepTesting({ className }: KeepTestingProps) {
       imageAlt="Keep Testing"
       title="Keep Testing"
       subtitle="Plateforme de suivi de tests et corrections de bugs"
-      skills={[
-        { name: 'React', color: 'orange' },
-        { name: 'GraphQL', color: 'blue' },
-        { name: 'AWS', color: 'purple' },
-      ]}
+      skills={['React']}
       className={className}
     >
       <p>

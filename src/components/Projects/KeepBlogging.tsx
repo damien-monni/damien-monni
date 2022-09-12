@@ -12,11 +12,7 @@ export default function KeepBlogging({ className }: KeepBloggingProps) {
       imageAlt="Keep Blogging"
       title="Keep Blogging"
       subtitle="Plateforme de blogging dédiée aux voyageurs"
-      skills={[
-        { name: 'React', color: 'orange' },
-        { name: 'GraphQL', color: 'blue' },
-        { name: 'AWS', color: 'purple' },
-      ]}
+      skills={['React']}
       className={className}
     >
       <p>

@@ -12,13 +12,7 @@ export default function Digicolis({ className }: DigicolisProps) {
       imageAlt="Digicolis"
       title="Digicolis"
       subtitle="Plateforme de gestion logistique"
-      skills={[
-        { name: 'React', color: 'orange' },
-        { name: 'Node.js', color: 'orange' },
-        { name: 'PWA', color: 'purple' },
-        { name: 'MongoDB', color: 'blue' },
-        { name: 'Express', color: 'purple' },
-      ]}
+      skills={['React']}
       className={className}
     >
       <p>

@@ -6,7 +6,7 @@ test('render the Project component', () => {
     <Project
       image={{ src: '/fake-img.png', height: 100, width: 100 }}
       imageAlt=""
-      skills={[{ name: 'react', color: 'blue' }]}
+      skills={['React']}
       title="Fake title"
       subtitle="Fake subtitle"
     />,

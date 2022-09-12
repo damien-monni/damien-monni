@@ -12,11 +12,7 @@ export default function Keeze({ className }: KeezeProps) {
       imageAlt="Keeze"
       title="Keeze"
       subtitle="Location d'espaces à la journée pour les entreprises"
-      skills={[
-        { name: 'React', color: 'orange' },
-        { name: 'Meteor', color: 'blue' },
-        { name: 'MongoDB', color: 'purple' },
-      ]}
+      skills={['React']}
       className={className}
     >
       <p>

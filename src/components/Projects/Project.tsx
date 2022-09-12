@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import Image, { StaticImageData } from 'next/image';
 import { PropsWithChildren } from 'react';
-import Chip, { ChipProps } from '../../design-system/Chip/Chip';
+import Skill, { SkillName } from '../Skill/Skill';
 
 interface ProjectProps {
   className?: string;
@@ -9,7 +9,7 @@ interface ProjectProps {
   imageAlt: string;
   title: string;
   subtitle: string;
-  skills: { name: string; color: ChipProps['color'] }[];
+  skills: SkillName[];
 }
 export default function Project({
   className,
@@ -26,18 +26,9 @@ export default function Project({
         <h3>{title}</h3>
         <p className="mt-0 mb-0 opacity-70 text-lg">{subtitle}</p>
 
-        <div className="flex items-center">
-          {skills.map((skill, index) => (
-            // Using index as a map key is generally a bad idea, but in this case it's fine
-            // because the skills array is always the same and will never change.
-            <Chip
-              key={index}
-              color={skill.color}
-              className="mr-2 mt-2 mb-2"
-              textNormal
-            >
-              {skill.name}
-            </Chip>
+        <div className="flex items-center mt-2">
+          {skills.map((skillName, index) => (
+            <Skill key={index} name={skillName} />
           ))}
         </div>
 
