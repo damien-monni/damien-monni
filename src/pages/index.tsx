@@ -21,9 +21,9 @@ const Home: NextPage = () => {
 
       <Experiences className="max-w-6xl mx-4 md:mx-8 lg:mx-auto mb-16 lg:mb-40" />
 
-      <Projects className="max-w-6xl mx-auto mb-40" />
+      <Projects className="max-w-6xl mx-4 md:mx-8 lg:mx-auto mb-16 lg:mb-40" />
 
-      <Contact className="max-w-6xl mx-auto mb-40" />
+      <Contact className="max-w-6xl mx-4 md:mx-8 lg:mx-auto mb-16 lg:mb-40" />
 
       <Footer />
     </>

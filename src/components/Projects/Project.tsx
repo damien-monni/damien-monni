@@ -21,14 +21,8 @@ export default function Project({
   skills,
 }: PropsWithChildren<ProjectProps>) {
   return (
-    <article className={clsx('flex', className)}>
-      <div className="flex-1 mr-8">
-        <figure className="bg-primary-light px-6 py-4">
-          <Image src={image} alt={imageAlt} />
-        </figure>
-      </div>
-
-      <div className="flex-1 ml-8">
+    <article className={clsx('flex flex-col md:flex-row', className)}>
+      <div className="flex-1 md:ml-8 md:order-2">
         <h3>{title}</h3>
         <p className="mt-0 mb-0 opacity-70 text-lg">{subtitle}</p>
 
@@ -48,6 +42,12 @@ export default function Project({
         </div>
 
         {children}
+      </div>
+
+      <div className="flex-1 mx-auto md:order-1 md:mr-8">
+        <figure className="bg-primary-light px-6 py-4 max-w-md md:max-w-max">
+          <Image src={image} alt={imageAlt} />
+        </figure>
       </div>
     </article>
   );
