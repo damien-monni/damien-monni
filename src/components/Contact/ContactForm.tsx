@@ -49,7 +49,7 @@ export default function ContactForm({ className }: ContactFormProps) {
       </div>
 
       <div className="mt-4">
-        <Button type="submit" disabled={state.submitting}>
+        <Button type="submit" loading={state.submitting}>
           Envoyer
         </Button>
       </div>
