@@ -21,7 +21,7 @@ export default function Contact({ className }: ContactProps) {
         Écrivez-moi sur{' '}
         <a
           href="mailto:contact@damien-monni.com"
-          className="text-blue-500 relative"
+          className="text-blue-500 relative whitespace-nowrap"
         >
           contact@damien-monni.com
           <Underline className="absolute top-9 right-0 w-full fill-blue-500" />
