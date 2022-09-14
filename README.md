@@ -18,7 +18,6 @@ This website uses the following libraries:
 - TailwindCSS
 - Storybook
 - Jest
-- Playwright
 
 ## Running locally in development mode
 
