@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply text-[14px] lg:text-[16px];
+}
+
+body {
+  @apply text-primary-text;
+}
+
+h1 {
+  @apply text-4xl lg:text-6xl font-bold;
+}
+
+h2 {
+  @apply text-3xl lg:text-5xl font-bold uppercase;
+}
+
+h3 {
+  @apply text-xl font-bold uppercase;
+}
+
+h4 {
+  @apply font-bold uppercase;
+}
+
+p {
+  @apply my-4;
+}

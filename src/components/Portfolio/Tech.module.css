@@ -1,9 +1,0 @@
-.root {
-  background-color: #f0f0f0;
-  padding: 2px var(--spacing-2);
-  border-radius: 4px;
-  margin-right: var(--spacing-2);
-  margin-bottom: var(--spacing-05);
-  font-size: 0.8rem;
-  letter-spacing: 0.3px;
-}
