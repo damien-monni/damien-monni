@@ -18,8 +18,8 @@ export default function Database() {
       ]}
     >
       <p>
-        J’ai principalement travaillé sur les bases de données PostgreSQL,
-        MongoDB et DynamoDB.
+        Je travaille principalement sur les bases de données PostgreSQL, MongoDB
+        et DynamoDB.
       </p>
 
       <p>
@@ -31,7 +31,7 @@ export default function Database() {
       <p>
         Le choix de la base de données n’est pas à négliger car en fonction de
         votre projet, elle influencera la robustesse de l’application, sa
-        lisibilité, maintenance et ses coût.
+        maintenance et ses coût.
       </p>
     </Service>
   );

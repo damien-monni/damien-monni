@@ -20,14 +20,15 @@ export default function Testing() {
       </p>
 
       <p>
-        Afin de produire un code de qualité et fonctionnel, j’écrirai des tests
-        unitaires et des tests fonctionnels (end-to-end) lors de tous mes
-        développements.
+        Afin de produire un code de qualité et évolutif, j’écrirai des tests
+        unitaires, des tests d'intégration et des tests fonctionnels
+        (end-to-end) lors de tous mes développements, si possible en TDD
+        (Test-Driven Development).
       </p>
 
       <p>
-        J’ai l’habitude d’utiliser Jest pour les tests unitaires et Cypress pour
-        les tests fonctionnels.
+        J’ai l’habitude d’utiliser Jest pour les tests unitaires et
+        d'intégration, ainsi que Cypress pour les tests fonctionnels.
       </p>
     </Service>
   );

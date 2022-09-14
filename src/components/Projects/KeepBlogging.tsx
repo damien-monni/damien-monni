@@ -29,7 +29,7 @@ export default function KeepBlogging({ className }: KeepBloggingProps) {
       </p>
 
       <p>
-        La plateforme propose des fonctionnalitée moderne, comme un editeur de
+        La plateforme propose des fonctionnalitées modernes, comme un editeur de
         texte directement intégré à la page de l’article. Ainsi, l’utilisateur
         visualise ses articles directement comme ses lecteurs les visualiseront,
         sans avoir à passer par un formulaire intermediaire et une page de

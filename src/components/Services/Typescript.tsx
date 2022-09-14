@@ -20,8 +20,8 @@ export default function Typescript() {
       </p>
 
       <p>
-        Elle apporte une solidité à l’application qui réduit considérablement sa
-        quantité de bug.
+        Elle apporte une robustesse à l’application qui réduit considérablement
+        sa quantité de bug.
       </p>
 
       <p>

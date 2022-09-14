@@ -21,7 +21,7 @@ export default function Frontend() {
       ]}
     >
       <p>
-        Je travail quotidiennement sur du code front-end avec React, depuis
+        Je travail quotidiennement sur du code frontend avec React, depuis
         maintenant plus de 5 ans.
       </p>
 

@@ -22,8 +22,8 @@ export default function Backend() {
         Sur une application moderne, je pourrais par exemple travailler sur des
         API GraphQL et Serverless. Si votre code est existant ou que des
         contraintes vous l’imposent, je suis aussi capable de développer des API
-        REST à partir d’architectures On Premise, à partir d’Express par
-        exemple.
+        REST à partir d’architectures On Premise, à partir d’Express, Fastify ou
+        Nest.js par exemple.
       </p>
     </Service>
   );

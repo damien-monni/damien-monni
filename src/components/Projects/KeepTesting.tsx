@@ -27,7 +27,7 @@ export default function KeepTesting({ className }: KeepTestingProps) {
       </p>
 
       <p>
-        Techniquement, le front-end utilise React, le backend Node.js et la base
+        Techniquement, le frontend utilise React, le backend Node.js et la base
         de données PostgreSQL.
       </p>
     </Project>

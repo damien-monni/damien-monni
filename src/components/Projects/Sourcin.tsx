@@ -21,8 +21,8 @@ export default function Sourcin({ className }: SourcinProps) {
       </p>
 
       <p>
-        Les contenus peuvent être sous plusieurs formats : vidéos, page web
-        interactive, quiz, PDF...
+        Les contenus peuvent être sous plusieurs formats : vidéos, pages web
+        interactives, quiz, PDF...
       </p>
 
       <p>

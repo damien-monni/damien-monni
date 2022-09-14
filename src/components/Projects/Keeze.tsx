@@ -24,7 +24,7 @@ export default function Keeze({ className }: KeezeProps) {
 
       <p>
         Cela est passé par la migration de leur site Internet Wordpress vers une
-        solution sur-mesure en React ainsi que la création d'un back-end
+        solution sur-mesure en React ainsi que la création d'un backend
         permettant d'administrer leurs réservations, devis, et la gestion de
         leurs espaces.
       </p>
@@ -35,15 +35,15 @@ export default function Keeze({ className }: KeezeProps) {
       </p>
 
       <p>
-        Côté front-end, le design a été amélioré. Un système de réservation en
+        Côté frontend, le design a été amélioré. Un système de réservation en
         ligne a été entièrement créé, ainsi qu'un système de génération et
         d'envoi automatique de devis PDF suite à une demande d'une réservation
         en ligne.
       </p>
 
       <p>
-        Côté back-end, un espace d'administration 100% sur-mesure a été créé
-        afin de répondre exactement à leurs besoins.
+        Côté backend, un espace d'administration 100% sur-mesure a été créé afin
+        de répondre exactement à leurs besoins.
       </p>
 
       <p>
