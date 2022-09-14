@@ -16,7 +16,7 @@ export default function Craftman({ className }: CraftmanProps) {
 
       <div className="max-w-2xl mx-auto">
         <p className="text-lg lg:text-xl mt-8 mb-6 lg:mt-16 lg:mb-10">
-          Developpeur passionné, je créé du code de qualité, lisible, testé et
+          Développeur passionné, je créé du code de qualité, lisible, testé et
           facile à faire évoluer.
         </p>
 
