@@ -26,7 +26,7 @@ export default function Serverless() {
       <p>
         J’ai mis en place des infrastructures AWS entièrement Serverless pour
         des applications à fortes contraintes réglementaires. Cela me permet
-        aujourd’hui de bien maitriser les services Serverless proposés par AWS
+        aujourd’hui de bien maîtriser les services Serverless proposés par AWS
         et d’être capable de créer l’architecture la plus adaptée à votre
         situation.
       </p>

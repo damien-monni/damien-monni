@@ -16,7 +16,7 @@ export default function Sourcin({ className }: SourcinProps) {
       className={className}
     >
       <p>
-        Sourcin créer et héberge des contenus de formations sur mesure pour
+        Sourcin créé et héberge des contenus de formation sur mesure pour
         l'industrie biopharmaceutique.
       </p>
 
@@ -26,7 +26,7 @@ export default function Sourcin({ className }: SourcinProps) {
       </p>
 
       <p>
-        Le domaine de la biopharmaceutique demande une grande maitrise de
+        Le domaine de la biopharmaceutique demande une grande maîtrise de
         l'infrastructure et des données de la plateforme, ce qui leur impose de
         développer leur propre plateforme d'hébergement et de distribution de
         contenus.

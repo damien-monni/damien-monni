@@ -24,7 +24,7 @@ export default function Design({ className }: DesignProps) {
 
           <p>
             Enfin, j'ai aussi un attrait pour l'univers du design et je suis
-            ainsi capable de realiser des maquettes graphiques de sites web avec
+            ainsi capable de réaliser des maquettes graphiques de sites web avec
             Figma, Photoshop ou encore Adobe XD.
           </p>
 

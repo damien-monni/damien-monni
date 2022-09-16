@@ -15,7 +15,7 @@ export default function HeroExperience({ className }: HeroExperienceProps) {
           10
         </span>
         <span className="inline-flex max-w-[250px]">
-          ans d’expérience dans le développement et l’ingénieurie
+          ans d’expérience dans le développement et l'ingénierie
         </span>
       </p>
 
@@ -24,7 +24,7 @@ export default function HeroExperience({ className }: HeroExperienceProps) {
           5
         </span>
         <span className="inline-flex max-w-[250px]">
-          années en tant qu’indépendant aux services de vos projets web
+          années en tant qu’indépendant au service de vos projets web
         </span>
       </p>
     </div>

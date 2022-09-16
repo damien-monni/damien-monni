@@ -22,24 +22,24 @@ export default function KeepBlogging({ className }: KeepBloggingProps) {
       </p>
 
       <p>
-        L’idée vient de l’observation que beaucoup de personnes partagent leur
+        L’idée vient de l’observation que beaucoup de personnes partagent leurs
         voyages sur les réseaux sociaux plutôt qu’un blog car la création de
-        blog n’est pas aisée. Avec Keep Blogging, une minute suffie pour créer
+        blog n’est pas aisée. Avec Keep Blogging, une minute suffit pour créer
         un blog.
       </p>
 
       <p>
-        La plateforme propose des fonctionnalitées modernes, comme un editeur de
+        La plateforme propose des fonctionnalités modernes, comme un éditeur de
         texte directement intégré à la page de l’article. Ainsi, l’utilisateur
         visualise ses articles directement comme ses lecteurs les visualiseront,
-        sans avoir à passer par un formulaire intermediaire et une page de
+        sans avoir à passer par un formulaire intermédiaire et une page de
         prévisualisation spéciale.
       </p>
 
       <p>
         Techniquement, le framework React Next.js est utilisé pour le frontend.
         Le backend est 100 % serverless et utilise le cloud d’infrastructure
-        AWS. Cela permet une optimisation maximale des coût, une mise à
+        AWS. Cela permet une optimisation maximale des coûts, une mise à
         l’échelle illimitée et supprime la gestion d’infrastructure afin de se
         focaliser sur le développement de l’application.
       </p>

@@ -21,9 +21,9 @@ export default function Craftman({ className }: CraftmanProps) {
         </p>
 
         <p className="text-lg lg:text-xl">
-          J’adère entièrement à la philosophie du{' '}
+          J’adhère entièrement à la philosophie du{' '}
           <strong>Software Craftsmanship</strong>, afin de vous livrer un
-          travail sur lequel vous pourrez évoluer en toute sereinité pour la
+          travail sur lequel vous pourrez évoluer en toute sérénité pour la
           suite de votre projet.
         </p>
       </div>

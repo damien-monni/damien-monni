@@ -25,7 +25,7 @@ export default function Digicolis({ className }: DigicolisProps) {
         Il s’agit d’un ensemble d’applications : un site vitrine, une
         application d’administration et une PWA (application mobile disponible
         sur le web) dédiées aux livreurs sur le terrain et un backend sous la
-        forme d’une API réalisé avec Node.js et MongoDB.
+        forme d’une API réalisée avec Node.js et MongoDB.
       </p>
 
       <p>

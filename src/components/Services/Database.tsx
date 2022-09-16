@@ -24,14 +24,14 @@ export default function Database() {
 
       <p>
         Ces trois bases de données couvrent un spectre d’utilisation large qui
-        me permet aujourd’hui d’avoir un vision claire des avantages et
+        me permet aujourd’hui d’avoir une vision claire des avantages et
         contraintes de chacune d’elles.
       </p>
 
       <p>
         Le choix de la base de données n’est pas à négliger car en fonction de
         votre projet, elle influencera la robustesse de l’application, sa
-        maintenance et ses coût.
+        maintenance et ses coûts.
       </p>
     </Service>
   );

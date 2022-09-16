@@ -37,8 +37,8 @@ export default function Keeze({ className }: KeezeProps) {
       <p>
         Côté frontend, le design a été amélioré. Un système de réservation en
         ligne a été entièrement créé, ainsi qu'un système de génération et
-        d'envoi automatique de devis PDF suite à une demande d'une réservation
-        en ligne.
+        d'envoi automatique de devis PDF suite à une demande de réservation en
+        ligne.
       </p>
 
       <p>
