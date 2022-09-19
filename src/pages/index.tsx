@@ -24,7 +24,7 @@ const Home: NextPage = () => {
 
       <Topbar className="fixed top-0 right-0 left-0 z-50" />
 
-      <HeroAndCraftman className="bg-primary-light pt-36 px-4 pb-16 mb-16 lg:mb-28 lg:pt-40 lg:pb-32" />
+      <HeroAndCraftman className="bg-primary-light pt-44 px-4 pb-16 mb-16 sm:pt-36 lg:mb-28 lg:pt-40 lg:pb-32" />
 
       <Services className="max-w-6xl mx-4 md:mx-8 lg:mx-auto mb-16 lg:mb-40" />
 
