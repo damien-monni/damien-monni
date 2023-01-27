@@ -2,12 +2,15 @@ import MailIcon from '@heroicons/react/24/outline/EnvelopeIcon';
 import ArrowDownTrayIcon from '@heroicons/react/24/outline/ArrowDownTrayIcon';
 
 import clsx from 'clsx';
+import { useTranslation } from 'next-i18next';
 
 interface TopbarProps {
   className?: string;
 }
 
 export default function Topbar({ className }: TopbarProps) {
+  const { t } = useTranslation();
+
   return (
     <div
       className={clsx(
@@ -39,7 +42,7 @@ export default function Topbar({ className }: TopbarProps) {
             <span>
               <ArrowDownTrayIcon className="w-4 h-4 mr-2" />
             </span>
-            <span className="text-sm">Mon CV</span>
+            <span className="text-sm">{t('Topbar.resume')}</span>
           </a>
         </p>
       </div>

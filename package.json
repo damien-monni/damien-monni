@@ -10,7 +10,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "i18next": "i18next"
   },
   "dependencies": {
     "@formspree/react": "^2.3.3",
@@ -18,9 +19,12 @@
     "@heroicons/react": "^2.0.10",
     "@next/font": "^13.1.5",
     "clsx": "^1.2.1",
+    "i18next": "^22.4.9",
     "next": "^13.1.5",
+    "next-i18next": "^13.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^12.1.4",
     "sharp": "^0.31.3"
   },
   "devDependencies": {
@@ -47,6 +51,7 @@
     "eslint": "^8.20.0",
     "eslint-config-next": "^13.1.5",
     "eslint-plugin-storybook": "^0.6.1",
+    "i18next-parser": "^7.6.0",
     "jest": "^29.0.1",
     "jest-axe": "^7.0.0",
     "jest-environment-jsdom": "^29.0.1",

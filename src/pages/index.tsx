@@ -8,14 +8,16 @@ import HeroAndCraftman from '../components/HeroAndCraftman/HeroAndCraftman';
 import Projects from '../components/Projects/Projects';
 import Services from '../components/Services/Services';
 import Topbar from '../components/Topbar/Topbar';
+import { useTranslation } from 'next-i18next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 const Home: NextPage = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <Head>
-        <title>
-          Damien Monni - Développeur web à Limoges, et partout ailleurs.
-        </title>
+        <title>{t('HomePage.title')}</title>
         <meta
           name="description"
           content="Développeur indépendant, full-stack, spécialisé dans l'écosystème Javascript et le cloud AWS. Je créé du code de qualité, lisible, testé et facile à faire évoluer."
@@ -40,5 +42,13 @@ const Home: NextPage = () => {
     </>
   );
 };
+
+export async function getStaticProps({ locale }: { locale: string }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['common'])),
+    },
+  };
+}
 
 export default Home;
