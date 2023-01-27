@@ -3,6 +3,7 @@ import ArrowDownTrayIcon from '@heroicons/react/24/outline/ArrowDownTrayIcon';
 
 import clsx from 'clsx';
 import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 
 interface TopbarProps {
   className?: string;
@@ -10,6 +11,7 @@ interface TopbarProps {
 
 export default function Topbar({ className }: TopbarProps) {
   const { t } = useTranslation();
+  const { locale } = useRouter();
 
   return (
     <div
@@ -34,7 +36,7 @@ export default function Topbar({ className }: TopbarProps) {
 
         <p className="my-2 ml-2">
           <a
-            href="/cv-damien-monni.pdf"
+            href={`/cv-damien-monni-${locale}.pdf`}
             className="whitespace-nowrap inline-flex items-center bg-primary-text text-white px-6 py-2 rounded-sm"
             target="_blank"
             rel="noopener noreferrer"
