@@ -23,7 +23,7 @@ export default function TextField({
 }: InputProps | TextareaProps) {
   return (
     <label>
-      <span className="font-bold text-sm inline-flex mb-1.5">{label}</span>
+      <span className="font-extrabold text-sm inline-flex mb-1.5">{label}</span>
 
       {multiline ? (
         <textarea

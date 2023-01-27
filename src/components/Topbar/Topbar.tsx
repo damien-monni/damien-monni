@@ -16,7 +16,7 @@ export default function Topbar({ className }: TopbarProps) {
       )}
     >
       <div className="flex flex-col sm:flex-row items-center justify-between max-w-6xl mx-auto px-4 lg:px-2 xl:px-0">
-        <p className="flex items-center justify-center underline font-bold text-sm my-2 mr-2">
+        <p className="flex items-center justify-center underline font-extrabold text-sm my-2 mr-2">
           <span>
             <MailIcon className="w-5 h-5 mr-2" />
           </span>

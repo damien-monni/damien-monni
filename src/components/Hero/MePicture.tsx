@@ -15,7 +15,12 @@ export default function MePicture({ className }: MePictureProps) {
         <div className="bg-[#FFDED3] absolute top-4 bottom-0 left-0 right-0 lg:top-16 rounded-[75px] rotate-3 translate-y-32" />
 
         {/* Picture */}
-        <Image src={mePicture} alt="Damien Monni" priority />
+        <Image
+          src={mePicture}
+          alt="Damien Monni"
+          priority
+          className="relative z-10"
+        />
 
         {/****** Skill chips ******/}
 
