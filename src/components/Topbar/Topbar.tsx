@@ -17,7 +17,14 @@ export default function Topbar({ className }: TopbarProps) {
         className,
       )}
     >
-      <div className="flex flex-col sm:flex-row items-center justify-between max-w-6xl mx-auto px-4 lg:px-2 xl:px-0">
+      <div
+        className={clsx(
+          'flex flex-col items-center justify-between max-w-6xl mx-auto px-4',
+          'sm:flex-row',
+          'lg:px-2',
+          'xl:px-0',
+        )}
+      >
         <TopbarEmail className="my-2 mr-2" />
 
         <ResumeButton className="my-2 ml-2" locale={locale || 'en'} />
