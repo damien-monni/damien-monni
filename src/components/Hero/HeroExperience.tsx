@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import { useTranslation } from 'next-i18next';
 
 interface HeroExperienceProps {
   className?: string;
@@ -8,6 +9,8 @@ interface HeroExperienceProps {
 // the year number on both paragraph while keeping it good from a SEO perspective.
 
 export default function HeroExperience({ className }: HeroExperienceProps) {
+  const { t } = useTranslation();
+
   return (
     <div className={clsx(className)}>
       <p className="flex items-center mb-4 sm:mb-8">
@@ -15,7 +18,7 @@ export default function HeroExperience({ className }: HeroExperienceProps) {
           10
         </span>
         <span className="inline-flex max-w-[250px]">
-          ans d’expérience dans le développement et l'ingénierie
+          {t('HeroExperience.devAndEngeneering')}
         </span>
       </p>
 
@@ -24,7 +27,7 @@ export default function HeroExperience({ className }: HeroExperienceProps) {
           5
         </span>
         <span className="inline-flex max-w-[250px]">
-          années en tant qu’indépendant au service de vos projets web
+          {t('HeroExperience.independant')}
         </span>
       </p>
     </div>

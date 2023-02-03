@@ -2,12 +2,15 @@ import clsx from 'clsx';
 import HeroExperience from './HeroExperience';
 import HeroIntroText from './HeroIntroText';
 import MePicture from './MePicture';
+import { useTranslation } from 'next-i18next';
 
 interface HeroProps {
   className?: string;
 }
 
 export default function Hero({ className }: HeroProps) {
+  const { t } = useTranslation();
+
   return (
     <section className={clsx('lg:flex', className)}>
       {/* Left side of the Hero */}
@@ -19,7 +22,7 @@ export default function Hero({ className }: HeroProps) {
             href="#contact"
             className="bg-secondary-main text-secondary-contrastText px-8 py-4"
           >
-            Contactez-moi
+            {t('Hero.contact')}
           </a>
         </div>
 

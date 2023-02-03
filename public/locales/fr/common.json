@@ -1,4 +1,11 @@
 {
+  "Hero": {
+    "contact": "Contactez-moi"
+  },
+  "HeroExperience": {
+    "devAndEngeneering": "ans d’expérience dans le développement et l'ingénierie",
+    "independant": "ans en tant qu'indépendant au service de vos projets web"
+  },
   "HeroIntroText": {
     "webDeveloper": "<0>Développeur web à <2>Limoges</2>, et <5>partout ailleurs</5>.</0>"
   },

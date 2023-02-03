@@ -1,4 +1,11 @@
 {
+  "Hero": {
+    "contact": "Contact"
+  },
+  "HeroExperience": {
+    "devAndEngeneering": "years of experience in development and engineering",
+    "independant": "years as an independent web developer working on your projects"
+  },
   "HeroIntroText": {
     "webDeveloper": "<0>Web developer <2>remotely</2> working <5>everywhere</5>.</0>"
   },
@@ -6,6 +13,6 @@
     "resume": "My resume"
   },
   "HomePage": {
-    "title": "Damien Monni - Full-stack JS web developer"
+    "title": "Damien Monni - Web developer remotely working everywhere."
   }
 }
