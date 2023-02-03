@@ -9,6 +9,9 @@
   "HeroIntroText": {
     "webDeveloper": "<0>Développeur web à <2>Limoges</2>, et <5>partout ailleurs</5>.</0>"
   },
+  "LanguageSwitch": {
+    "label": "Switch to English"
+  },
   "ResumtButton": {
     "resume": "Mon CV"
   },

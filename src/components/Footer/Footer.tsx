@@ -1,3 +1,4 @@
+import { LanguageSwitch } from '../LanguageSwitch/LanguageSwitch';
 import Legal from '../Legal/Legal';
 
 export default function Footer() {
@@ -16,6 +17,8 @@ export default function Footer() {
       </p>
 
       <Legal />
+
+      <LanguageSwitch className="mt-8" />
     </footer>
   );
 }
