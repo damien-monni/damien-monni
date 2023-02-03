@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+import { render } from '@test-utils';
 import TypographyDemo from './TypographyDemo';
 
 test('render the TypographyDemo component', () => {

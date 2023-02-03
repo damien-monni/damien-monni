@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+import { render } from '@test-utils';
 import Project from './Project';
 
 test('render the Project component', () => {

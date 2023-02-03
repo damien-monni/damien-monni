@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+import { render } from '@test-utils';
 import Digicolis from './Digicolis';
 
 test('render the Digicolis component', () => {

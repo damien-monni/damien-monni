@@ -1,5 +1,5 @@
 import IndexPage, { getStaticProps } from '../pages/index';
-import { render } from '../test-utils';
+import { render } from '@test-utils';
 
 jest.mock('@formspree/react', () => ({
   useForm: () => [{}, jest.fn()],

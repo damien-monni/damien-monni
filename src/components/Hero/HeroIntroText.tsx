@@ -1,4 +1,5 @@
 import Chip from '../../design-system/Chip/Chip';
+import { Trans } from 'next-i18next';
 
 export default function HeroIntroText() {
   return (
@@ -15,11 +16,13 @@ export default function HeroIntroText() {
         </div>
       </div>
 
-      <p className="leading-9 text-2xl text-center lg:text-3xl lg:text-left">
-        Développeur web à{' '}
-        <strong className="text-secondary-main">Limoges</strong>, et{' '}
-        <strong className="text-primary-main">partout ailleurs</strong>.
-      </p>
+      <Trans i18nKey={'HeroIntroText.webDeveloper'}>
+        <p className="leading-9 text-2xl text-center lg:text-3xl lg:text-left">
+          Développeur web à{' '}
+          <strong className="text-secondary-main">Limoges</strong>, et{' '}
+          <strong className="text-primary-main">partout ailleurs</strong>.
+        </p>
+      </Trans>
     </div>
   );
 }

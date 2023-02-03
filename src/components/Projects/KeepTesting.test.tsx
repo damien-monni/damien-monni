@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+import { render } from '@test-utils';
 import KeepTesting from './KeepTesting';
 
 test('render the KeepTesting component', () => {

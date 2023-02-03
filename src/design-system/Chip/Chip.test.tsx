@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@test-utils';
 import Chip from './Chip';
 
 test('renders a chip with the text "My chip"', () => {

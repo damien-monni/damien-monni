@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+import { render } from '@test-utils';
 import Experiences from './Experiences';
 
 test('render the Experiences component', () => {

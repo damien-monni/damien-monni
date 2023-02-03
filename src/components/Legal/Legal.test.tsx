@@ -1,4 +1,4 @@
-import { act, render, screen } from '@testing-library/react';
+import { act, render, screen } from '@test-utils';
 import Legal from './Legal';
 
 // @ts-expect-error

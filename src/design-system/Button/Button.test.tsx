@@ -1,5 +1,5 @@
 import { ArrowDownTrayIcon } from '@heroicons/react/24/outline';
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@test-utils';
 import Button from './Button';
 
 test('renders a button HTML element', () => {

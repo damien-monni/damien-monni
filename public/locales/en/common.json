@@ -1,4 +1,7 @@
 {
+  "HeroIntroText": {
+    "webDeveloper": "<0>Web developer <2>remotely</2> working <5>everywhere</5>.</0>"
+  },
   "Topbar": {
     "resume": "My resume"
   },
