@@ -22,7 +22,11 @@ export function TranslationWip({ className }: TranslationWIPProps) {
         <Link className="underline" href="/cv-damien-monni-en.pdf">
           my resume
         </Link>{' '}
-        if you want to know more about me in English!
+        if you want to know more about me in English, or{' '}
+        <Link href="/" locale="fr" className="underline">
+          switch to French
+        </Link>
+        !
       </p>
     </div>
   );
