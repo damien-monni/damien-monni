@@ -17,6 +17,10 @@
   "LanguageSwitch": {
     "label": "Switch to English"
   },
+  "Services": {
+    "title": "Services",
+    "description": "Mes expériences variées me permettent d’intervenir sur différents domaines d’expertise. Ainsi, je peux aussi bien venir renforcer votre équipe sur un domaine spécifique qu’intervenir en tant que full-stack sur toute votre application."
+  },
   "ResumtButton": {
     "resume": "Mon CV"
   },
