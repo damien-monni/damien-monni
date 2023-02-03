@@ -1,4 +1,9 @@
 {
+  "Craftman": {
+    "title": "Artisan Logiciel passionné",
+    "passionate": "Développeur passionné, je créé du code de qualité, lisible, testé et facile à faire évoluer.",
+    "details": "J’adhère entièrement à la philosophie du <2>Software Craftsmanship</2>, afin de vous livrer un travail sur lequel vous pourrez évoluer en toute sérénité pour la suite de votre projet."
+  },
   "Hero": {
     "contact": "Contactez-moi"
   },

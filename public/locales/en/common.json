@@ -1,4 +1,9 @@
 {
+  "Craftman": {
+    "title": "Passionate Software Craftsman",
+    "passionate": "As a passionate developer, I create clean and simple code that is easy to test and maintain.",
+    "details": "I firmly believe in the <2>Software craftsmanship</2> philosophy to deliver work with the minimal technical debt possible, on which you can confidently evolve for the rest of your project."
+  },
   "Hero": {
     "contact": "Contact"
   },
