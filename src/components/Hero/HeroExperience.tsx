@@ -15,7 +15,7 @@ export default function HeroExperience({ className }: HeroExperienceProps) {
     <div className={clsx(className)}>
       <p className="flex items-center mb-4 sm:mb-8">
         <span className="text-primary-main text-4xl w-20 font-extrabold text-center sm:text-6xl sm:w-32">
-          10
+          12
         </span>
         <span className="inline-flex max-w-[250px]">
           {t('HeroExperience.devAndEngeneering')}
