@@ -1,6 +1,9 @@
 import Service from './Service';
+import { useTranslation } from 'next-i18next';
 
 export default function Frontend() {
+  const { t } = useTranslation();
+
   return (
     <Service
       title="Frontend"
@@ -20,22 +23,13 @@ export default function Frontend() {
         </picture>,
       ]}
     >
-      <p>
-        Je travaille quotidiennement sur du code frontend avec React, depuis
-        maintenant plus de 5 ans.
-      </p>
+      <p>{t('Frontend.dailyReact')}</p>
 
-      <p>
-        J’ai pu évoluer sur une variété large de code neuf ou legacy, avec des
-        composants de classes ou de fonctions, des HOC, des Render Props, des
-        Hooks, des configurations Webpack, des bases CRA ou Next.js.
-      </p>
+      <p>{t('Frontend.variety')}</p>
 
-      <p>
-        Quelle que soit votre demande, je serais heureux de produire votre
-        prochaine application web, réduire votre dette technique ou venir
-        renforcer une équipe déjà en place.
-      </p>
+      <p>{t('Frontend.svelte')}</p>
+
+      <p>{t('Frontend.lookingForward')}</p>
     </Service>
   );
 }

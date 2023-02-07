@@ -17,6 +17,12 @@
   "LanguageSwitch": {
     "label": "Switch to English"
   },
+  "Frontend": {
+    "dailyReact": "Je travaille quotidiennement sur du code frontend avec React, depuis maintenant 7 ans, ce qui en fait ma technologie front de prédilection.",
+    "variety": "J’ai pu évoluer sur une variété large de code neuf ou legacy, avec des composants de classes ou de fonctions, des HOC, des Render Props, des Hooks.",
+    "svelte": "Depuis peu j'ai aussi eu l'opportunité de travailler sur des projets Svelte et SvelteKit.",
+    "lookingForward": "Quelle que soit votre demande, je serais heureux de produire votre prochaine application web, réduire votre dette technique ou venir renforcer une équipe déjà en place."
+  },
   "Services": {
     "title": "Services",
     "description": "Mes expériences variées me permettent d’intervenir sur différents domaines d’expertise. Ainsi, je peux aussi bien venir renforcer votre équipe sur un domaine spécifique qu’intervenir en tant que full-stack sur toute votre application."

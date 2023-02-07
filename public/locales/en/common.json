@@ -17,6 +17,12 @@
   "LanguageSwitch": {
     "label": "Version française"
   },
+  "Frontend": {
+    "dailyReact": "I have worked on React projects for the last seven years, making it my front-end technology of choice.",
+    "variety": "I was able to evolve on a wide variety of new or legacy code with class or function components, HOCs, Render Props, and Hooks.",
+    "svelte": "Recently I also had the opportunity to work on Svelte and SvelteKit projects.",
+    "lookingForward": "Whatever your request, I would be happy to produce your next web application, reduce your technical debt or reinforce a team already in place."
+  },
   "Services": {
     "title": "Services",
     "description": "With 12+ years of engineering, I can work in different domains of expertise. Thus, I can strengthen your team in a specific part of your application or as a full-stack developer on your entire application."
