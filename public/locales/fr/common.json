@@ -12,13 +12,13 @@
     "independant": "ans en tant qu'indépendant au service de vos projets web"
   },
   "HeroIntroText": {
-    "webDeveloper": "<0>Développeur web à <2>Limoges</2>, et <5>partout ailleurs</5>.</0>"
+    "webDeveloper": "Expertise en développement web"
   },
   "LanguageSwitch": {
     "label": "Switch to English"
   },
   "Frontend": {
-    "dailyReact": "Je travaille quotidiennement sur du code frontend avec React, depuis maintenant 7 ans, ce qui en fait ma technologie front de prédilection.",
+    "dailyReact": "Je travaille quotidiennement sur du code frontend avec React, depuis maintenant 8 ans, ce qui en fait ma technologie front de prédilection.",
     "variety": "J’ai pu évoluer sur une variété large de code neuf ou legacy, avec des composants de classes ou de fonctions, des HOC, des Render Props, des Hooks.",
     "svelte": "Depuis peu j'ai aussi eu l'opportunité de travailler sur des projets Svelte et SvelteKit.",
     "lookingForward": "Quelle que soit votre demande, je serais heureux de produire votre prochaine application web, réduire votre dette technique ou venir renforcer une équipe déjà en place."
